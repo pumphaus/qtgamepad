@@ -41,8 +41,9 @@
 //
 
 #include <QtQml/qqml.h>
-#include <QtGamepadLegacy/QtGamepadLegacy>
-
+#include "qgamepad.h"
+#include "qgamepadkeynavigation.h"
+#include "qgamepadmanager.h"
 #include "qgamepadmouseitem.h"
 #include "qjsengine.h"
 
