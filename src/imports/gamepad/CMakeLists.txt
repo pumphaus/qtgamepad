@@ -4,7 +4,7 @@
 ## declarative_gamepad Plugin:
 #####################################################################
 
-qt_internal_add_qml_module(GamepadQuickPrivate
+qt_internal_add_qml_module(GamepadLegacyQuickPrivate
     URI "QtGamepadLegacy"
     VERSION "${PROJECT_VERSION}"
     CLASS_NAME QGamepadModule
