@@ -45,7 +45,7 @@
 
 QT_BEGIN_NAMESPACE
 
-Q_GLOBAL_STATIC_WITH_ARGS(QFactoryLoader, loader, (QtGamepadBackendFactoryInterface_iid, QLatin1String("/gamepads"), Qt::CaseInsensitive))
+Q_GLOBAL_STATIC_WITH_ARGS(QFactoryLoader, loader, (QtGamepadBackendFactoryInterface_iid, QLatin1String("/legacygamepads"), Qt::CaseInsensitive))
 
 QStringList QGamepadBackendFactory::keys()
 {
